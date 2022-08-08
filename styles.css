@@ -1,0 +1,90 @@
+#main_header_text{
+    color: #EF6C00;
+}
+
+main{
+    padding-top: 62px;
+}
+
+header{
+    text-align: center;
+}
+
+header hr{
+    width: 15rem;
+}
+
+section{
+    padding: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#segmentos{
+    margin: 20px 0 60px 0;
+    display: flex;
+}
+
+#input_palpite{
+    width: 12rem;
+    outline-color: #EF6C00;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#btn_enviar{
+    margin-left: 16px;
+    background: #EF6C00;
+    border: 0;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    color: white;
+}
+
+#btn_enviar:disabled{
+    background-color: grey;
+    opacity: 0.4;
+}
+
+#btn_nova_partida{
+    border: 0;
+    border-radius: 5px;
+    width: 130px;
+    height: 42px;
+    background-image: linear-gradient(rgb(87, 87, 87), rgb(211, 209, 209));
+    color: white;
+    visibility: hidden;
+}
+
+.segmento{
+    width: 100px;
+    height: 10px;
+}
+
+.ativo{
+    background-color: #262A34;
+}
+
+.inativo{
+    background-color: #DDDDDD;
+}
+
+.segmento{
+    width: 55px;
+    height: 55px;
+}
+
+#top_0{
+    border: 10px solid #262A34;
+    border-bottom: 10px solid #DDDDDD;
+}
+
+#bot_0{
+    border: 10px solid #262A34;
+    border-top:  10px solid #DDDDDD;
+}

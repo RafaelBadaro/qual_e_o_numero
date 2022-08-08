@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é o numero?</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 id="main_header_text">
+                QUAL É O NÚMERO?
+            </h1>
+            <hr>
+        </header>
+        <section>
+            <h2 id="info">
+            </h2>
+            <div id="segmentos">
+                <div>
+                    <div class="segmento" id="top_0"></div>
+                    <div class="segmento" id="bot_0"></div>
+                </div>
+            </div>
+            <button id="btn_nova_partida" onclick="novaPartida()">NOVA PARTIDA</button>
+        </section>
+        <footer>
+            <input id="input_palpite" type="text" name="palpite" placeholder="Digite o palpite">
+            <button id="btn_enviar" onclick="enviarPalpite()">ENVIAR</button>
+        </footer>
+    </main>
+</body>
+</html>
